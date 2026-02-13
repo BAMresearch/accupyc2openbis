@@ -12,13 +12,13 @@ classifiers = [
   "Programming Language :: Python :: 3.11",
   "Programming Language :: Python :: 3.12",
 ]
-name = "masterdata-parser-example"
-description = "An example parser for openBIS using the bam-masterdata interface."
+name = "accupyc2openbis"
+description = "An openBIS parser for Accupyc gas pycnometer data to automate upload in the BAM Data Store "
 dynamic = ["version"]
 readme = "README.md"
 requires-python = ">=3.10"
 authors = [
-  { name = "BAM Data Store", email = "datastore@bam.de" },
+  { name = "Bjoern Mieller", email = "bjoern.mieller@bam.de" },
 ]
 maintainers = [
   { name = "Jose M. Pizarro", email = "jose.pizarro-blanco@bam.de" },
@@ -29,8 +29,8 @@ dependencies = [
 ]
 
 [project.urls]
-"Homepage" = "https://github.com/BAMresearch/masterdata-parser-example"
-"Bug Tracker" = "https://github.com/BAMresearch/masterdata-parser-example/issues"
+"Homepage" = "https://github.com/BAMresearch/accupyc2openbis"
+"Bug Tracker" = "https://github.com/BAMresearch/accupyc2openbis/issues"
 
 [project.optional-dependencies]
 dev = [

@@ -1,4 +1,4 @@
-# masterdata-parser-example
+# accupyc2openbis
 
 An example parser for openBIS using the bam-masterdata interface.
 
@@ -26,15 +26,15 @@ You will be prompted to create a new repository. Choose:
 
 With your new repository created, clone it locally:
 ```bash
-git clone https://github.com/BAMresearch/masterdata-parser-example.git
+git clone https://github.com/BAMresearch/accupyc2openbis.git
 ```
 
 **Note**: we will be using our example with this repository to showcase the commands. Please, change the corresponding
 paths to your own repository naming conventions.
 
-We have now a new folder, `masterdata-parser-example`, containing the following structure:
+We have now a new folder, `accupyc2openbis`, containing the following structure:
 ```sh
-masterdata-parser-example
+accupyc2openbis
 ├── LICENSE
 ├── pyproject.toml
 ├── README.md
